@@ -6,7 +6,7 @@ header {
   margin-left: 24px;
   margin-right: 24px;
   display: grid;
-  grid-template-columns: 391.48px 148px 240.52px;
+  grid-template-columns: 454px 148px 450px;
 }
 
 .cover {
@@ -44,12 +44,15 @@ header {
 .header__menu {
   display: flex;
   flex-wrap: nowrap;
-  gap: 31px;
+  gap:31px;
   padding-left: 26.52px;
-  padding-top: 44px;
-  padding-bottom: 39px;
-  padding-right: 36px;
+    padding-top: 44px;
+    padding-bottom: 39px;
+  
+  
 }
+
+
 
 .header__logo {
   display: flex;
@@ -65,12 +68,13 @@ address {
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
-  letter-spacing: 1px;
+  
   font-family: Raleway, sans-serif;
   text-align: left;
-  margin-top: 5px;
-  height: 98px;
-  margin-bottom: 2px;
+  
+  padding-top: 5px;
+  padding-bottom: 2px;
+  
   width: 240.52px;
   font-style: normal;
 }
@@ -79,20 +83,24 @@ address {
   margin-left: 184px;
   width: 240.52px;
 }
+.header__link {
+  
+    border-bottom: 1px solid #000000;
+    text-decoration: none;
+  
+  }
 
 .header__link__active {
-  text-decoration: none;
-  border: none;
+  
+    border:0;
 }
-.header__link {
-  text-underline-offset: 1px;
-  border: 1px;
-}
+
 
 .header__links-list-item {
   list-style: circle;
   font-weight: 400;
   font-size: 18px;
+  
 }
 
 .header__links-list-item_no-bullit {
@@ -112,6 +120,7 @@ address {
   line-height: 115px;
   font-weight: 700;
   letter-spacing: 30px;
+  min-height: 355px;
 }
 
 .aligned-text {
@@ -120,10 +129,14 @@ address {
 
 .aligned-text_center {
   text-align: center;
+  line-height: 100px;
+  padding-bottom:20px;
+  padding-top:20px;
 }
 
 .aligned-text_right {
   text-align: right;
+  line-height: 100px;
 }
 
 .letter-spacing-extented {
@@ -140,7 +153,6 @@ address {
   justify-content: space-between;
   padding-left: 78px;
   padding-right: 50px;
-  padding-bottom: 62px;
   align-items: center;
   position: relative;
   z-index: 2;
@@ -150,7 +162,7 @@ address {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: normal;
-  word-spacing: 9px;
+  word-spacing: 16px;
   text-align: center;
   vertical-align: center;
 }
@@ -256,7 +268,9 @@ address {
   line-height: 23.48px;
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
-  padding-left: 40px;
+  margin-left: 40px;
+  text-decoration: none;
+  border-bottom: 1px solid #000000;
 }
 
 .about__column {
@@ -267,7 +281,8 @@ address {
 }
 .about__logo {
   border-radius: 50%;
-  margin-top: 47px;
+  
+  margin-top: 35px;
   width: 240px;
   height: 240px;
   background: black;
@@ -291,7 +306,7 @@ address {
   text-transform: uppercase;
   line-height: 49.96px;
   font-weight: 700;
-  padding-top: 136px;
+  padding-top: 133px;
 }
 .about__text {
   font-size: 20px;
@@ -300,8 +315,8 @@ address {
   gap: 0px;
 }
 .about__text__top {
-  letter-spacing: 1px;
-  margin-top: 100px;
+  
+  padding-top: 100px;
   margin-bottom: 24px;
   margin-right: 5px;
 }
@@ -322,9 +337,17 @@ footer {
   font-size: 18px;
   font-weight: 400;
 }
-.footer__menu-link_active {
-  text-decoration: none;
+.footer__menu-link{
+    border-bottom: 1px solid #000000;
+    text-decoration: none;
+    
 }
+.footer__menu-link__active {
+  border: 0;
+    
+    
+}
+
 
 .footer__social-icon {
   width: 48px;
